@@ -11,6 +11,10 @@ cask "termx" do
 
   app "TermX.app"
 
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/TermX.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/TermX",
     "~/Library/Preferences/com.ianomad.termx.plist",
