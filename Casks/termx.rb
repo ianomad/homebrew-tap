@@ -1,10 +1,10 @@
 cask "termx" do
-  version "1.1.0"
-  sha256 "db570538261c2fb21f5f3adece06163389e38dc82ccd212887cc180646b969a2"
+  version "2.0.0"
+  sha256 "5727d82810536b43cecbd9ebd653e4bd0ddacd23125e5a986ff0fc04f1bd695b"
 
-  url "https://releases.termx.ilyusha.xyz/v#{version}/TermX-#{version}.zip"
+  url "https://github.com/ianomad/homebrew-tap/releases/download/v#{version}/TermX-#{version}.zip"
   name "TermX"
-  desc "Terminal emulator based on iTerm2 with command palette and pixel-art dock icons"
+  desc "Terminal emulator with live theming, command palette, and 50 pixel-art dock icons"
   homepage "https://termx.ilyusha.xyz"
 
   depends_on macos: ">= :monterey"
