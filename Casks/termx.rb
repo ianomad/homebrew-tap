@@ -1,6 +1,6 @@
 cask "termx" do
-  version "2.1.9"
-  sha256 "e558a613251cc14f295598bd7c76c7d563f7e9bed997c70fb53112b51c246617"
+  version "2.2.0"
+  sha256 "aaf9560075645de10e3dfd6cd507cae0335153321f7e3da425de02f1051693c7"
 
   url "https://github.com/ianomad/homebrew-tap/releases/download/v#{version}/TermX-#{version}.zip"
   name "TermX"
